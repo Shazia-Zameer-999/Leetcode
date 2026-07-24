@@ -13,11 +13,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0013-roman-to-integer) |
+| [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 ## String
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0013-roman-to-integer) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 ## Recursion
 |  |
 | ------- |
@@ -26,4 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
+## Sorting
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
