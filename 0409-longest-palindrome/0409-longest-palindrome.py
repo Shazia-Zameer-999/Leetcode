@@ -6,16 +6,16 @@ class Solution:
                 dict_s[i]=1
             else:
                 dict_s[i]+=1
-        sum=0
+        length=0
 
         increment=False
         for j in dict_s:
             if dict_s[j]%2==0:
-                sum+=dict_s[j]
+                length+=dict_s[j]
             else:
                 increment=True
-                sum+=(dict_s[j]-1)
-        if increment==True:
-            sum=sum+1
-        return sum
+                length+=(dict_s[j]-1)
+        if increment:
+            length=length+1
+        return length
         
