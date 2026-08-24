@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0013-roman-to-integer) |
 | [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0409-longest-palindrome) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -56,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0415-add-strings](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0415-add-strings) |
+## Array
+|  |
+| ------- |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 <!---LeetCode Topics End-->
