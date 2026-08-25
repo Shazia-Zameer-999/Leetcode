@@ -15,7 +15,7 @@ class Solution:
                 count_L=0
             if count_L>max_L:
                 max_L=count_L
-        if count_A>1 or max_L>2:
+        if max_L>2:
             return False
         else:
             return True
