@@ -17,8 +17,5 @@ class Solution:
                 max_L=count_L
             if max_L>2:
                 return False
-        if max_L>2:
-            return False
-        else:
-            return True
+        return True
         
