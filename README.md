@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0409-longest-palindrome) |
 | [0415-add-strings](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0415-add-strings) |
+| [0482-license-key-formatting](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0482-license-key-formatting) |
 ## Recursion
 |  |
 | ------- |
