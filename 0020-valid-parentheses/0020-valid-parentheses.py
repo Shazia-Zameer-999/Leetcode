@@ -3,9 +3,10 @@ class Solution:
         stack=[]
         matching={"{":"}","[":"]","(":")"}
         top=None
+        if len(s)%2!=0:
+            return False
         for i in s:
-            if len(s)%2!=0:
-                return False
+            
             if stack:
                 top=stack[-1]
             else:
