@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0020-valid-parentheses) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0409-longest-palindrome) |
@@ -72,4 +73,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0643-maximum-average-subarray-i) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
