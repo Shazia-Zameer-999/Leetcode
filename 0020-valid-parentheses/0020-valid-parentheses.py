@@ -11,7 +11,7 @@ class Solution:
                 top=stack[-1]
             else:
                 top=None
-            if i in matching.keys():
+            if i in matching:
                 stack.append(i)
             else:
                 if top!=None and i==matching[top]:
