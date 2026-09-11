@@ -4,19 +4,18 @@ class Solution:
             return []
         start=nums[0]
         output=[]
-        for i in range(len(nums)):
-            if i+1<len(nums):
-                next=nums[i]+1
-                if nums[i+1]!=next:
-                    end=nums[i]
-                    if start==end:
-                        output.append(str(start))
-                    else:
-                        output.append((f"{start}->{end}"))
-                    start=nums[i+1]
-                    
+        for i in range(len(nums)-1):
+            next=nums[i]+1
+            if nums[i+1]!=next:
+                end=nums[i]
+                if start==end:
+                    output.append(str(start))
                 else:
-                    end=nums[i+1]
+                    output.append((f"{start}->{end}"))
+                start=nums[i+1]
+                
+            else:
+                end=nums[i+1]
 
         end = nums[-1]
         if start == end:
