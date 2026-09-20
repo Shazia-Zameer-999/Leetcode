@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0020-valid-parentheses) |
+| [0257-binary-tree-paths](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0257-binary-tree-paths) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0409-longest-palindrome) |
@@ -82,4 +83,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0020-valid-parentheses) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0257-binary-tree-paths) |
+## Tree
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0257-binary-tree-paths) |
+## Depth-First Search
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0257-binary-tree-paths) |
+## Binary Tree
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/Shazia-Zameer-999/https-github.com-Shazia-Zameer-999-Leetcode/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
