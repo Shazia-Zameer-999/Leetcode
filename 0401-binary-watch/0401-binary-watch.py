@@ -2,11 +2,9 @@ class Solution:
     def readBinaryWatch(self, turnedOn: int) -> list[str]:
         if turnedOn>8:
             return []
-        H=[h for h in range(12)]
-        M=[m for m in range(60)]
         output=[]
-        for h in H:
-            for m in M:
+        for h in range(12):
+            for m in range(60):
                 #convert h and m to binary and calculate its number of 1s
                 h_bin=bin(h).count("1")
                 m_bin=bin(m).count("1")
