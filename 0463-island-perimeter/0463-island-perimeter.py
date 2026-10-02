@@ -1,34 +1,24 @@
 class Solution:
     def islandPerimeter(self, grid: list[list[int]]) -> int:
-        column=len(grid[0])
+        columns=len(grid[0])
         rows=len(grid)
-        perimeter=0
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+        perimeter = 0
         for i in range(rows):
-            for j in range(column):
-                if grid[i][j]==1:
-                        if i>0:
-                            up=grid[i-1][j]
-                            if up==0:
-                                perimeter+=1
-                        else:
-                            perimeter+=1
-                        if i+1<rows:
-                            down=grid[i+1][j]
-                            if down==0:
-                                perimeter+=1
-                        else:
-                            perimeter+=1
-                        if j>0:
-                            left=grid[i][j-1]
-                            if left==0:
-                                perimeter+=1
-                        else:
-                            perimeter+=1
-                        if j+1<column:
-                            right=grid[i][j+1]
-                            if right==0:
-                                perimeter+=1
-                        else:
-                            perimeter+=1
+                    for j in range(columns):
+
+                        if grid[i][j] == 1:
+
+                            for di, dj in directions:
+                                ni = i + di
+                                nj = j + dj
+
+                                # Outside the grid = water
+                                if ni < 0 or ni >= rows or nj < 0 or nj >= columns:
+                                    perimeter += 1
+
+                                # Neighbor is water
+                                elif grid[ni][nj] == 0:
+                                    perimeter += 1
         return perimeter
         
