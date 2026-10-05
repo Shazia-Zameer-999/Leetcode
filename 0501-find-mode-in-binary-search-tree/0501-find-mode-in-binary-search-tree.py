@@ -4,8 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-count=0
 class Solution:
+    count=0
     def findMode(self, root: TreeNode | None) -> list[int]:
         max_count=0
         mode=[]
