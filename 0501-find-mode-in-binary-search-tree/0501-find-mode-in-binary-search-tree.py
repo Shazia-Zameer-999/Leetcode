@@ -5,16 +5,16 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    count=0
     def findMode(self, root: TreeNode | None) -> list[int]:
         max_count=0
         mode=[]
         prev=None
+        count=0
         def inorder(root):
             nonlocal prev
             nonlocal max_count
             nonlocal mode
-            global count
+            nonlocal count
 
             if root is None:
                 return
