@@ -4,25 +4,42 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+count=0
 class Solution:
     def findMode(self, root: TreeNode | None) -> list[int]:
-        list=[]
-        def dfs(root):
+        max_count=0
+        mode=[]
+        prev=None
+        def inorder(root):
+            nonlocal prev
+            nonlocal max_count
+            nonlocal mode
+            global count
+
             if root is None:
                 return
-            list.append(root.val)
-            dfs(root.left)
-            dfs(root.right)
-        dfs(root)
-        #to find the frequency of all the numbers from the list
-        freq={}
-        for i in list:
-            if i not in freq:
-                freq[i]=1
+            inorder(root.left)
+            current=root.val
+            if current==prev:
+                count+=1
+
             else:
-                freq[i]+=1
-        #now to find the key which has the highest value
-        max_value = max(freq.values())
-        keys = [key for key, value in freq.items() if value == max_value]
-        return keys
+                count=1
+
+            if count>max_count:
+                max_count=count
+                mode=[current]
+            elif count==max_count:
+                mode.append(current)
+
+
+
+            prev=current
+
+
+
+
+            inorder(root.right)
+        inorder(root)
+        return mode
         
