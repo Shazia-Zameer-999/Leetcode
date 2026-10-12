@@ -9,10 +9,10 @@ class Solution:
     def getMinimumDifference(self, root: Optional[TreeNode]) -> int:
         prev=None
         difference=None
-        list_diff=[]
+        minimum=float('inf')
         def ios(root):
             nonlocal prev
-            nonlocal list_diff
+            nonlocal minimum
             nonlocal difference
             if root is None:
                 return
@@ -20,12 +20,12 @@ class Solution:
             current=root.val
             if prev is not None:
                 difference=current-prev
-                list_diff.append(difference)
+            if difference and difference<minimum:
+                minimum=difference
             prev=current
             ios(root.right)
         ios(root)
-        print(list_diff)
-        return min(list_diff)
+        return minimum
 
 
         
